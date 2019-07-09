@@ -26,4 +26,8 @@ func PostRequest(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "Request Payload: %v\n", metadata)
 }
 
+func CreateRequest(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintln(w, "Everything seems to be fine!")
+}
+
 type MetaData interface{}
