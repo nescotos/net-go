@@ -1,9 +1,8 @@
 # Net-Go
 
-This repo is under construction and contains some Go Codes for:
+This repo contains some Go Codes:
 
-- HTTP Server (Basic Application)
-- WebSockets (Chat Application)
-- CDN Network (Cache System(?))
-- Microservices (Implement the three above and communicate them)
+- Build a HTTP Server
+- Websocket Implementation
+- HTTP Echo Framework
 
